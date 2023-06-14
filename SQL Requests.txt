@@ -1,0 +1,18 @@
+1. SELECT * FROM students WHERE YEAR(date_of_birth) = 1990;
+
+2. SELECT * FROM courses WHERE cfu > 10;
+
+3. SELECT * FROM students WHERE YEAR(date_of_birth) > 1993;
+
+4. SELECT * FROM courses WHERE period = 'I semestre' AND year = '1';
+
+5. SELECT * FROM exams WHERE hour > '14:00' AND date > '2020-06-20';
+
+6. 	SELECT c.*
+	FROM courses c
+	JOIN degrees d ON c.degree_id = d.id
+	WHERE d.level = 'magistrale';
+
+7. 
+
+8.
